@@ -1,15 +1,24 @@
 body {
-    padding: 0;
     background-color: #fff;
     font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana", sans-serif;
-    font-size: 13px;
+    font-size: 16px;
     color: #333;
 }
 
-h1 {
-    font-size: 28px;
-    color: #000;
+h1, h2 {
     text-align: center;
+    margin: 0;
+    padding-top: 20px;
+}
+
+h1 {
+    font: 4em Arial Rounded MT Bold, sans-serif;
+}
+
+h2 {
+    font-size: 1.3em;
+    margin: 0;
+    padding: 20px 40px;;
 }
 
 a  {color: #03c}
@@ -19,9 +28,11 @@ a:hover {
 }
 
 #page {
+    padding: 20px;
     background-color: #fff5ee;
     width: 750px;
     margin: auto;
+    border-radius: 10px;
 }
 
 img {
